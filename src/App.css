@@ -1,0 +1,11 @@
+.app {
+  width: 500px;
+  margin: 0px auto;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
